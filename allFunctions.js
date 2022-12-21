@@ -179,10 +179,10 @@ async function getProductByModelNo(req, res) {
 // scraping part
 async function scrapSites() {
     // limit n11 to one page scraping
-    // await n11(20);
-    // await trendyol();
-    // await hepsiburada();
-    // await teknosa()
+    await n11(20);
+    await trendyol();
+    await hepsiburada();
+    await teknosa()
 }
 
 
